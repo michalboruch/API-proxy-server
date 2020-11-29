@@ -1,4 +1,7 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
+
+"""Simple API Proxy."""
 
 import json
 import os
