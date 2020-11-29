@@ -1,9 +1,7 @@
-![](https://reposart.s3.eu-west-2.amazonaws.com/misc/proxy2.jpg)
-
-## EEN API Proxy
+## Simple API Proxy Server
 
 #### Overview:
-Simple Eagle Eye Networks proxy to use for local development.
+Simple proxy to use for local development.
 
 #### Requirements:
 [Docker](https://www.docker.com/)
@@ -12,3 +10,9 @@ Simple Eagle Eye Networks proxy to use for local development.
 `make build`
 
 `make run`
+
+#### Usage:
+
+Add target domain to to environment variables as a `API_URL`.
+
+Server is runing on the `localhost:8000`.

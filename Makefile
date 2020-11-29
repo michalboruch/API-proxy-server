@@ -4,4 +4,4 @@ build:
 	docker build -t ${PROJECT_APP_NAME}:latest -f Dockerfile .
 
 run:
-	docker run -v $(shell pwd):/usr/src/app -it -p 0.0.0.0:8000:8001 ${PROJECT_APP_NAME}
+	docker run -v $(shell pwd):/usr/src/app -it -p 0.0.0.0:8000:8080 ${PROJECT_APP_NAME}
