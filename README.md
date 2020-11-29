@@ -13,6 +13,6 @@ Simple proxy to use for local development.
 
 #### Usage:
 
-Add target domain to to environment variables as a `API_URL`.
+Add target domain to the environment variables as a `API_URL`.
 
 Server is runing on the `localhost:8000`.
